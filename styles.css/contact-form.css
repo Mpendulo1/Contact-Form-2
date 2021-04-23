@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(https://picsum.photos/1920);
+  background-size: cover;
+  padding: 7% 31%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+.header {
+  padding: 10px;
+  font-size: 50px;
+  text-align: left top;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 26px;
+  resize: vertical;
+  border-end-end-radius: 10px;
+}
+input[type="submit"] {
+  background-color: #3c5ae0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: blue;
+}
+.container {
+  background: rgba(10, 103, 193, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border-radius: 10px;
+  border-radius: 10px;
+  padding: 5% 10%;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23%;
+}
